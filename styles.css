@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b9b9b9;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: lavender;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.8s ease;
+}
+
+.container:hover {
+  box-shadow: 0 0 20px rgba(255, 156, 242, 0.8);
+}
+
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-align: center; 
+  display: block; 
+  margin: 0 auto;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.success {
+  background-color: #c9fdd1;
+  color: #006400;
+}
+
+.error {
+  background-color: #ffd7d7;
+  color: #8b0000;
+}
